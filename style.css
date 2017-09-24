@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  background-color: #40b0b5;
+  margin: 0PX 0PX 5PX 0PX;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#content {
+  position: relative;
+  top: 72px;
+  padding: 10px;
+}
+
+#Bala-Bala {
+  position: relative;
+  top: 0px;
+}
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#content > .container > div {
+  padding: 50px 0;
+}
+
+hr.bar {
+  border: 2px solid #40b0b5;
+  width: 80px;
+}
+
+.menu div {
+ display: flex;
+ font-size: 1.75rem;
+ min-height: 1.75rem;
+ align-items: center;
+ padding: 0 1 rem;
+ background-color: #40b0b5;
+ color: #fff;
+ font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: auto
+}
+
+
+a:hover  {
+  border: 1px solid #40b0b5;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+
+#my-pic {
+  margin: 20px 10px 0px 10px;
+  float: left;
+
+}
+
+#my-pic img{
+  width: 200px;
+  height: 220px;
+  margin: 0 10px 0px 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin:20px 0 10px 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+#about h1 {
+text-align: center;
+}
+
+h3 {
+  margin:0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+table {
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+th{
+  width: 70px;
+}
+
+hr {
+  border: 0.5px solid green;
+}
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.personaWapper{
+  background-color: indigo;
+  display: flex;
+  flex-direction: column;
+}
+.persona {
+  font-family: DFKai-sb;
+  font-size: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+  justify-content: center;
+}
+.HeaderA {
+  background-color: #FFD700;
+  position: relative;
+  border-radius: 15px;
+}
+.HeaderB {
+  background-color: #105b63;
+  border-radius: 15px;
+  position: absolute;
+  width: 1000PX;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+.HeaderB:hover {
+  transition: all 1s ease 0s;
+  opacity: 1;
+}
+
+.TwoA {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 15px;
+}
+.TwoB {
+  background-color: #fffad5;
+  border-radius: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1000PX;
+  opacity: 0;
+}
+.persona .TwoB:hover {
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+.ThreeA {
+  background-color: #01BAEF;
+  position: relative;
+  border-radius: 15px;
+}
+.ThreeB {
+  background-color: pink;
+  border-radius: 15px;
+  position: absolute;
+  width: 1000PX;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+.ThreeB:hover {
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+.FourA {
+  background-color: #EA0000;
+  position: relative;
+  border-radius: 15px;
+}
+.FourB {
+  background-color: purple;
+  border-radius: 15px;
+  position: absolute;
+  width: 1000PX;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+.FourB:hover {
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+.FooterA {
+  background-color: #F75C03;
+  position: relative;
+  border-radius: 15px;
+}
+.FooterB {
+  background-color: lightgreen;
+  border-radius: 15px;
+  position: absolute;
+  width: 1000PX;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+.FooterB:hover {
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.bala-first{
+}
+li {
+  font-family: DFKai-sb;
+  font-size: 20px;
+}
+li:hover {
+  background-color: lightgreen;
+  text-align: center;
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: DFKai-sb;
+  font-size: 20px;
+}
+
+#teapot {
+  background-color: #a34839;
+  border-radius: 15px;
+  width: 950px;
+  height:970px;
+  text-align: center;
+  align-items: center;
+}
+.teapotpic{
+  display: inline-block;
+  max-width: 30%;
+  margin-top: 20px;
+}
+
+.teapotpic img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+.teapotpic img:hover {
+  transition: all 1s ease 0s;
+  transform: translate(20px,20px) scale(1.5);
+}
+#contact-me {
+
+}
+
+form.contact-form {
+
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
